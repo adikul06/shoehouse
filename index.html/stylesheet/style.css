@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	display: flex;
+	padding: 0;
+	margin: 0 ;
+}
+nav div img {
+	height: 15vh;
+	width: 15vw;
+}
+nav ul  {
+ height: 110px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+nav ul li{
+	list-style-type: none;
+padding: 0 23px;
+font-size: 30px;
+}
+nav ul li:hover{
+	background-color: dimgrey;
+	color: white;
+}
+.search{
+	display: flex;
+}
+div input {
+	width: 429px;
+	height: 20px;
+	border-radius: 8px;
+	margin: 0 25px;
+}
+.bttn{
+	padding: 5px 10px;
+	color: white;
+	background-color: black;
+}
+.slider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	margin: auto;
+	height: 50vh;
+
+}
+.slider img{
+	width: auto;
+	height: 50vh;
+	margin: 12px;
+	padding: 0;
+}
+.card{
+	
+	max-width: 90vw;
+	margin: auto;
+
+}
+.cards{
+	display: flex;
+	flex-direction: row;
+}
+.carditem{
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 15px;
+
+}
+.carditem img{
+	width: 20vw;
+
+}
+.butt{
+	background-color: black;
+	color: white;
+	width: 14vw;
+	height: 4vh;
+	margin: 8px 0 18px 0;
+}
+.flexcentre{
+	background-color: black;
+	color: white;
+	height: 4vh;
+	letter-spacing: 0.047em;
+font-style: italic;
+
+
+}
+footer{
+	background-color: black;
+	color: white;
+}
+div ul li{
+	list-style-type: none;
+	padding: 0 30px;
+margin: 0;
+font-size: 15px;
+}
